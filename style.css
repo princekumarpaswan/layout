@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(174, 222, 221);
+}
+
+header{
+    background-color: rgb(41, 174, 174);    
+}
+
+header>h1{
+    margin-left: 47%;
+    color: aliceblue;
+    padding: 10px;
+    height: 70px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.aside{
+    background-color: rgb(121, 184, 121);
+    color: white;
+    width: 400px;
+    height: 85vh;
+}
+
+.aside>h2{
+    margin-top: 96%;
+    margin-left: 30%;
+    font-size: 50px;
+}
+
+.artical{
+    background-color: rgb(255, 123, 0);
+    width: 75%;
+    margin-left: 50px;
+    
+}
+
+.artFlex{
+    display: flex;
+    justify-content: space-around;
+}
+.yellow{
+    width: 400px;
+    height: 350px;
+    margin-top: 400px;
+    background-color: yellow;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.yellow>h1{
+    margin-top: 35%;
+    margin-left: 35%;
+}
